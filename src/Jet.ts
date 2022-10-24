@@ -11,11 +11,7 @@ class Jet extends Airplane {
   // Speed field.
   private readonly MULTIPLIER = 2
 
-  // getter and setter
-  getSpeed(): number {
-    return super.getSpeed()
-  }
-
+  // setter
   setSpeed(speed: number): void {
     super.setSpeed(speed * this.MULTIPLIER)
   }
